@@ -1,6 +1,6 @@
 
 {
-    "name": "jorge/module-pagebuilder-html-smart-editor",
+    "name": "jorge-armando/module-pagebuilder-html-smart-editor",
     "description": "NA",
     "type": "magento2-module",
     "autoload": {
@@ -8,7 +8,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "Jorge\\PageBuilderHtmlSmartEditor\\": ""
+            "JorgeArmando\\PageBuilderHtmlSmartEditor\\": ""
         }
     }
 }
