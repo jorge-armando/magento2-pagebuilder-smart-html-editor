@@ -1,7 +1,8 @@
 
 {
     "name": "jorge-armando/pagebuilder-smart-html-editor",
-    "description": "NA",
+    "description": "Smart HTML editor to page builder html code content type.",
+    "license": "MIT",
     "type": "magento2-module",
     "autoload": {
         "files": [
