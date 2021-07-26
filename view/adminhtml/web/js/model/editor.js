@@ -2,7 +2,9 @@ define([
     "jquery",
     "jquery/ui",
     "Jorge_PageBuilderHtmlCodeExtend/js/ace/ace",
-    "Jorge_PageBuilderHtmlCodeExtend/js/ace/ext-language_tools"
+    "Jorge_PageBuilderHtmlCodeExtend/js/ace/ext-language_tools",
+    "Jorge_PageBuilderHtmlCodeExtend/js/ace/ext-emmet",
+    "Jorge_PageBuilderHtmlCodeExtend/js/extra/emmet"
 ], function($) {
     'use strict';
 
@@ -20,6 +22,7 @@ define([
                 maxLines: 30,
                 autoScrollEditorIntoView: true,
                 fontSize: "16px",
+                enableEmmet: true,
                 enableBasicAutocompletion: true,
                 enableSnippets: true,
                 enableLiveAutocompletion: false,

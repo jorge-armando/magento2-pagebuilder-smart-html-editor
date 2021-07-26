@@ -7,7 +7,8 @@ var config = {
     },
 
     shim: {
-        "Jorge_PageBuilderHtmlCodeExtend/js/ace/ext-language_tools": ["Jorge_PageBuilderHtmlCodeExtend/js/ace/ace"]
+        "Jorge_PageBuilderHtmlCodeExtend/js/ace/ext-language_tools": ["Jorge_PageBuilderHtmlCodeExtend/js/ace/ace"],
+        "Jorge_PageBuilderHtmlCodeExtend/js/ace/ext-emmet": ["Jorge_PageBuilderHtmlCodeExtend/js/ace/ace"]
     },
 
     config: {
